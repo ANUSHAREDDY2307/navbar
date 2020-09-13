@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+}
+
+.navBar ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: black;
+  
+}
+.navBar ul a{
+  font-size: 20px;
+  font-weight: 200px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 15px;
+  border: 5px solid black;
+  border-radius: 50px;
+}
+.navBar ul .active, .navBar ul a:hover{
+  background: cyan;
+  color: black;
+}
+
+button{
+  background-color: #f44336;
+  border: 2px solid black;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin: 0;
+  position: absolute;
+  top: 85%;
+  left: 45%;
+  border-radius: 40px;
+  font-style: oblique;
+}
+
+.image{
+  width: 50%;
+}
+
+.text{
+  font-family: Calibri;
+  width: 50%;
+}
+
+.splitscreen{
+  display: flex;
+}
+
